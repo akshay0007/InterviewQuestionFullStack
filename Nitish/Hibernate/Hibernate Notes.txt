@@ -1,0 +1,25 @@
+1. Auto Generated primary column strategy
+2. Difference between PrimaryKeyJoinColumn & Join Column
+3. @JoinColumn, @MapKeyColumn, @Embedded, @Embeddable, @ElementCollection, @CollectionTable, @AttributeOverrides, @AttributeOverride, @JoinTable
+4. MappedBy, Inverse JoinColumn, @MappedSuperClass, @TableGenerator, @DescriminatorColumn, @NaturalId
+5. load(), get(), save(), saveOrUpdate(), Merge() and flush()
+6. @Inheritance, strategy= tablePerClass, SingleTableInheritance (All concept in deep)
+7. Fetch views in hibernate
+8. hbm2ddl types
+9. HQL, JPQL and Criteria Query
+10. Implicit Join and explicit join
+11. Default fetch type
+12. Type of transaction in spring
+13. Restriction
+14. Predicate, Cosumer java 8
+15. Pagination -> setFirstResult, setMaxResult
+16. Difference between merge(), refresh() & update()
+17. Concurrency in hibernate
+18. Lazy load of master entity using session.byId(Entity.class) method whereas child entity can be fetched using fetch=FetchType.Lazy in @ManyToOne or 	@OneToOne annotation
+19. If we query persistence object multiple times from same session then it returns same object but different object from different session.
+20. orphanRemoval=true cascase type. Others : Merge, Remove,persist,refresh,detach , All
+21. Disjunctions (works like OR) and Restrictions (works like AND), Projections/Aggregations & Query By Example (QBE) in Criteria Query
+22. Criteria.setResultTransformer( DistinctRootEntityResultTransformer.INSTANCE ) for distinct result
+23. evict() specific object from session and clear() for all object from session to clear first level session
+24. 1st level cache is session scope whereas 2nd level cache is for session factory scope
+25. 2nd level caching : EhCache -> https://howtodoinjava.com/hibernate/hibernate-ehcache-configuration-tutorial/
