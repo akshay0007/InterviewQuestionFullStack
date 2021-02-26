@@ -1,6 +1,3 @@
-https://mrleonhuang.gitbooks.io/lintcode/content/breath-first-search/zombie-in-matrix.html
-
-
 Given a 2D grid, each cell is either a wallc 2, a zombie 1 or people 0 (the number zero, one, two).Zombies can turn the nearest people(up/down/left/right) into zombies every day, but can not through wall. How long will it take to turn all people into zombies? Return -1 if can not turn all people into zombies.
 
 
@@ -16,3 +13,6 @@ Input:
  [0,0,0],
  [0,0,1]]
 Output:
+
+
+sol--https://mrleonhuang.gitbooks.io/lintcode/content/breath-first-search/zombie-in-matrix.html
