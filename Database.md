@@ -1,11 +1,16 @@
 What does UNION do? What is the difference between UNION and UNION ALL? 
+
 Hide answer
-UNION merges the contents of two structurally-compatible tables into a single combined table. The difference between UNION and UNION ALL is that UNION will omit duplicate records whereas UNION ALL will include duplicate records.
+UNION merges the contents of two structurally-compatible tables into a single combined table. 
+The difference between UNION and UNION ALL is that UNION will omit duplicate records whereas UNION ALL will include duplicate records.
 It is important to note that the performance of UNION ALL will typically be better than UNION, since UNION requires the server to do the additional work of removing any duplicates. So, in cases where is is certain that there will not be any duplicates, or where having duplicates is not a problem, use of UNION ALL would be recommended for performance reasons.
+
+
 Comment 
 List and explain the different types of JOIN clauses supported in ANSI-standard SQL.
 Hide answer
 ANSI-standard SQL specifies five types of JOIN clauses as follows:
+
 •	INNER JOIN (a.k.a. “simple join”): Returns all rows for which there is at least one match in BOTH tables. This is the default type of join if no specific JOIN type is specified.
 •	LEFT JOIN (or LEFT OUTER JOIN): Returns all rows from the left table, and the matched rows from the right table; i.e., the results will contain all records from the left table, even if the JOIN condition doesn’t find any matching records in the right table. This means that if the ON clause doesn’t match any records in the right table, the JOIN will still return a row in the result for that record in the left table, but with NULL in each column from the right table.
 •	RIGHT JOIN (or RIGHT OUTER JOIN): Returns all rows from the right table, and the matched rows from the left table. This is the exact opposite of a LEFT JOIN; i.e., the results will contain all records from the right table, even if the JOIN condition doesn’t find any matching records in the left table. This means that if the ON clause doesn’t match any records in the left table, the JOIN will still return a row in the result for that record in the right table, but with NULL in each column from the left table.
@@ -14,6 +19,8 @@ ANSI-standard SQL specifies five types of JOIN clauses as follows:
 Comment 
 Consider the following two query results:
 SELECT count(*) AS total FROM orders;
+
+
 
 +-------+
 | total |
@@ -28,6 +35,8 @@ SELECT count(*) AS cust_123_total FROM orders WHERE customer_id = '123';
 +----------------+
 |       15       |
 +----------------+
+
+
 Given the above query results, what will be the result of the query below?
 SELECT count(*) AS cust_not_123_total FROM orders WHERE customer_id <> '123'
 Hide answer
@@ -37,6 +46,9 @@ The obvious answer is 85 (i.e, 100 - 15). However, that is not necessarily corre
 +--------------------+
 |         84         |
 +--------------------+
+
+
+
 Comment 
 Find top SQL talent today. Toptal can match you with the best developers to finish your project.
 Hire Toptal’s SQL Developers 
@@ -46,6 +58,9 @@ Hide answer
 This query will actually yield “Nope”, seeming to imply that null is not equal to itself! The reason for this is that the proper way to compare a value to null in SQL is with the is operator, not with =.
 Accordingly, the correct version of the above query that yields the expected result (i.e., “Yup”) would be as follows:
 select case when null is null then 'Yup' else 'Nope' end as Result;
+
+
+
 Comment 
 Given the following tables:
 sql> SELECT * FROM runners;
@@ -68,14 +83,20 @@ sql> SELECT * FROM races;
 |  3 | cross-country  |  2        |
 |  4 | triathalon     |  NULL     |
 +----+----------------+-----------+
+
+
 What will be the result of the query below?
 SELECT * FROM runners WHERE id NOT IN (SELECT winner_id FROM races)
 Explain your answer and also provide an alternative version of this query that will avoid the issue that it exposes.
+
+
 Hide answer
 Surprisingly, given the sample data provided, the result of this query will be an empty set. The reason for this is as follows: If the set being evaluated by the SQL NOT IN condition contains any values that are null, then the outer query here will return an empty set, even if there are many runner ids that match winner_ids in the races table.
 Knowing this, a query that avoids this issue would be as follows:
 SELECT * FROM runners WHERE id NOT IN (SELECT winner_id FROM races WHERE winner_id IS NOT null)
 Comment 
+
+
 Given two tables created and populated as follows:
 CREATE TABLE dbo.envelope(id int, user_id int);
 CREATE TABLE dbo.docs(idnum int, pageseq int, doctext varchar(100));
@@ -95,6 +116,8 @@ WHERE EXISTS (
   SELECT 1 FROM dbo.docs
   WHERE id=envelope.id
 );
+
+
 Explain your answer.
 Hide answer
 The result of the query will be as follows:
@@ -105,6 +128,8 @@ NULL   0        NULL
 The EXISTS clause in the above query is a red herring. It will always be true since ID is not a member of dbo.docs. As such, it will refer to the envelope table comparing itself to itself!
 The idnum value of NULL will not be set since the join of NULL will not return a result when attempting a match with any value of envelope.
 Comment 
+
+
 What is wrong with this SQL query? Correct it so it executes properly.
 SELECT Id, YEAR(BillingDate) AS BillingYear 
 FROM Invoices
@@ -116,6 +141,8 @@ SELECT Id, YEAR(BillingDate) AS BillingYear
 FROM Invoices
 WHERE YEAR(BillingDate) >= 2010;
 Comment 
+
+
 Given these contents of the Customers table:
 Id      Name                    ReferredBy
 1       John Doe                NULL
@@ -128,6 +155,8 @@ Here is a query written to return the list of customers not referred by Jane Smi
 SELECT Name FROM Customers WHERE ReferredBy <> 2;
 What will be the result of the query? Why? What would be a better way to write it?
 Hide answer
+
+
 Although there are 4 customers not referred by Jane Smith (including Jane Smith herself), the query will only return one: Pat Richards. All the customers who were referred by nobody at all (and therefore have NULL in their ReferredBy column) don’t show up. But certainly those customers weren’t referred by Jane Smith, and certainly NULL is not equal to 2, so why didn’t they show up?
 SQL Server uses three-valued logic, which can be troublesome for programmers accustomed to the more satisfying two-valued logic (TRUE or FALSE) most programming languages use. In most languages, if you were presented with two predicates: ReferredBy = 2 and ReferredBy <> 2, you would expect one of them to be true and one of them to be false, given the same value of ReferredBy. In SQL Server, however, if ReferredBy is NULL, neither of them are true and neither of them are false. Anything compared to NULL evaluates to the third value in three-valued logic: UNKNOWN.
 The query should be written:
@@ -137,7 +166,11 @@ SELECT Name FROM Customers WHERE ReferredBy = NULL OR ReferredBy <> 2
 This will return the same faulty set as the original. Why? We already covered that: Anything compared to NULL evaluates to the third value in the three-valued logic: UNKNOWN. That “anything” includes NULL itself! That’s why SQL Server provides the IS NULL and IS NOT NULL operators to specifically check for NULL. Those particular operators will always evaluate to true or false.
 Even if a candidate doesn’t have a great amount of experience with SQL Server, diving into the intricacies of three-valued logic in general can give a good indication of whether they have the ability learn it quickly or whether they will struggle with it.
 Comment 
+
+
 Considering the database schema displayed in the SQLServer-style diagram below, write a SQL query to return a list of all the invoices. For each invoice, show the Invoice ID, the billing date, the customer’s name, and the name of the customer who referred that customer (if any). The list should be ordered by billing date.
+ 
+ 
  
 Hide answer
 SELECT i.Id, i.BillingDate, c.Name, r.Name AS ReferredByName
@@ -149,7 +182,9 @@ This question simply tests the candidate’s ability take a plain-English requir
 •	Did the candidate remember to use a LEFT JOIN instead of an inner JOIN when joining the customer table for the referring customer name? If not, any invoices by customers not referred by somebody will be left out altogether.
 •	Did the candidate alias the tables in the JOIN? Most experienced T-SQL programmers always do this, because repeating the full table name each time it needs to be referenced gets tedious quickly. In this case, the query would actually break if at least the Customer table wasn’t aliased, because it is referenced twice in different contexts (once as the table which contains the name of the invoiced customer, and once as the table which contains the name of the referring customer).
 •	Did the candidate disambiguate the Id and Name columns in the SELECT? Again, this is something most experienced programmers do automatically, whether or not there would be a conflict. And again, in this case there would be a conflict, so the query would break if the candidate neglected to do so.
-Note that this query will not return Invoices that do not have an associated Customer. This may be the correct behavior for most cases (e.g., it is guaranteed that every Invoice is associated with a Customer, or unmatched Invoices are not of interest). However, in order to guarantee that all Invoices are returned no matter what, the Invoices table should be joined with Customers using LEFT JOIN:
+Note that this query will not return Invoices that do not have an associated Customer. This may be the correct behavior for most cases (e.g., it is guaranteed that every Invoice is associated with a Customer, or unmatched Invoices are not of interest). However, in order to guarantee that all Invoices are returned no matter what, the Invoices 
+
+table should be joined with Customers using LEFT JOIN:
 SELECT i.Id, i.BillingDate, c.Name, r.Name AS ReferredByName
 FROM Invoices i
  LEFT JOIN Customers c ON i.CustomerId = c.Id
@@ -164,6 +199,8 @@ Hide answer
 The query will result in 50 rows as a “cartesian product” or “cross join”, which is the default whenever the ‘where’ clause is omitted.
 Comment 
 Given a table SALARIES, such as the one below, that has m = male and f = female values. Swap all f and m values (i.e., change all f values to m and vice versa) with a single update query and no intermediate temp table.
+
+
 Id  Name  Sex  Salary
 1   A     m    2500
 2   B     f    1500
@@ -190,6 +227,8 @@ insert into test_b(id) values
   (50);
 Write a query to fetch values in table test_a that are and not in test_b without using the NOT keyword.
 Hide answer
+
+
 In SQL Server, PostgreSQL, and SQLite, this can be done using the except keyword as follows:
 select * from test_a
 except
@@ -229,6 +268,7 @@ The key is the AND a!=X part. This gives you the benefits of the UNION (a.k.a., 
 Comment 
 Given the following tables:
 SELECT * FROM users;
+
 
 user_id  username
 1        John Doe                                                                                            
@@ -272,6 +312,8 @@ user_id  username      training_id  training_date             count
 4        Lisa Romero   3            August, 03 2015 00:00:00  2
 1        John Doe      1            August, 02 2015 00:00:00  3
 3        Alice Jones   2            August, 02 2015 00:00:00  2
+
+
 Comment 
 What is an execution plan? When would you use it? How would you view the execution plan?
 Hide answer
@@ -295,6 +337,7 @@ Given a table dbo.users where the column user_id is a unique identifier, how can
 Hide answer
 SELECT TOP 100 user_id FROM dbo.users WHERE user_id % 2 = 1 ORDER BY user_id
 Comment 
+
 How can you select all the even number records from a table? All the odd number records?
 Hide answer
 To select all the even number records from a table:
@@ -302,12 +345,14 @@ Select * from table where id % 2 = 0
 To select all the odd number records from a table:
 Select * from table where id % 2 != 0
 Comment 
+
 What are the NVL and the NVL2 functions in SQL? How do they differ?
 Hide answer
 Both the NVL(exp1, exp2) and NVL2(exp1, exp2, exp3) functions check the value exp1 to see if it is null.
 With the NVL(exp1, exp2) function, if exp1 is not null, then the value of exp1 is returned; otherwise, the value of exp2 is returned, but case to the same data type as that of exp1.
 With the NVL2(exp1, exp2, exp3) function, if exp1 is not null, then exp2 is returned; otherwise, the value of exp3 is returned.
 Comment 
+
 What is the difference between the RANK() and DENSE_RANK() functions? Provide an example.
 Hide answer
 The only difference between the RANK() and DENSE_RANK() functions is in cases where there is a “tie”; i.e., in cases where multiple values in a set have the same ranking. In such cases, RANK() will assign non-consecutive “ranks” to the values in the set (resulting in gaps between the integer ranking values when there is a tie), whereas DENSE_RANK() will assign consecutive ranks to the values in the set (so there will be no gaps between the integer ranking values in the case of a tie).
