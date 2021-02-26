@@ -22,30 +22,36 @@ SELECT count(*) AS total FROM orders;
 
 
 
-+-------+
-| total |
-+-------+
-|  100  |
-+-------+
+  +-------+
+  | total |
+  +-------+
+  |  100  |
+  +-------+
+
+
 
 SELECT count(*) AS cust_123_total FROM orders WHERE customer_id = '123';
 
-+----------------+
-| cust_123_total |
-+----------------+
-|       15       |
-+----------------+
+
+  +----------------+
+  | cust_123_total |
+  +----------------+
+  |       15       |
+  +----------------+
+
 
 
 Given the above query results, what will be the result of the query below?
 SELECT count(*) AS cust_not_123_total FROM orders WHERE customer_id <> '123'
 Hide answer
 The obvious answer is 85 (i.e, 100 - 15). However, that is not necessarily correct. Specifically, any records with a customer_id of NULL will not be included in either count (i.e., they won’t be included in cust_123_total, nor will they be included in cust_not_123_total). For example, if exactly one of the 100 customers has a NULL customer_id, the result of the last query will be:
-+--------- ----------+
-| cust_not_123_total |
-+--------------------+
-|         84         |
-+--------------------+
+
+
+  +--------- ----------+
+  | cust_not_123_total |
+  +--------------------+
+  |         84         |
+  +--------------------+
 
 
 
@@ -64,25 +70,30 @@ select case when null is null then 'Yup' else 'Nope' end as Result;
 Comment 
 Given the following tables:
 sql> SELECT * FROM runners;
-+----+--------------+
-| id | name         |
-+----+--------------+
-|  1 | John Doe     |
-|  2 | Jane Doe     |
-|  3 | Alice Jones  |
-|  4 | Bobby Louis  |
-|  5 | Lisa Romero  |
-+----+--------------+
+
+
+  +----+--------------+
+  | id | name         |
+  +----+--------------+
+  |  1 | John Doe     |
+  |  2 | Jane Doe     |
+  |  3 | Alice Jones  |
+  |  4 | Bobby Louis  |
+  |  5 | Lisa Romero  |
+  +----+--------------+
+
 
 sql> SELECT * FROM races;
-+----+----------------+-----------+
-| id | event          | winner_id |
-+----+----------------+-----------+
-|  1 | 100 meter dash |  2        |
-|  2 | 500 meter dash |  3        |
-|  3 | cross-country  |  2        |
-|  4 | triathalon     |  NULL     |
-+----+----------------+-----------+
+
+
+  +----+----------------+-----------+
+  | id | event          | winner_id |
+  +----+----------------+-----------+
+  |  1 | 100 meter dash |  2        |
+  |  2 | 500 meter dash |  3        |
+  |  3 | cross-country  |  2        |
+  |  4 | triathalon     |  NULL     |
+  +----+----------------+-----------+
 
 
 What will be the result of the query below?
@@ -121,10 +132,12 @@ WHERE EXISTS (
 Explain your answer.
 Hide answer
 The result of the query will be as follows:
-idnum  pageseq  doctext
-1      5        5
-2      6        6
-NULL   0        NULL
+
+  idnum  pageseq  doctext
+  1      5        5
+  2      6        6
+  NULL   0        NULL
+
 The EXISTS clause in the above query is a red herring. It will always be true since ID is not a member of dbo.docs. As such, it will refer to the envelope table comparing itself to itself!
 The idnum value of NULL will not be set since the join of NULL will not return a result when attempting a match with any value of envelope.
 Comment 
@@ -143,14 +156,16 @@ WHERE YEAR(BillingDate) >= 2010;
 Comment 
 
 
-Given these contents of the Customers table:
-Id      Name                    ReferredBy
-1       John Doe                NULL
-2       Jane Smith              NULL
-3       Anne Jenkins            2
-4       Eric Branford           NULL
-5       Pat Richards            1
-6       Alice Barnes            2
+  Given these contents of the Customers table:
+  Id      Name                    ReferredBy
+  1       John Doe                NULL
+  2       Jane Smith              NULL
+  3       Anne Jenkins            2
+  4       Eric Branford           NULL
+  5       Pat Richards            1
+  6       Alice Barnes            2
+
+
 Here is a query written to return the list of customers not referred by Jane Smith:
 SELECT Name FROM Customers WHERE ReferredBy <> 2;
 What will be the result of the query? Why? What would be a better way to write it?
@@ -201,11 +216,12 @@ Comment
 Given a table SALARIES, such as the one below, that has m = male and f = female values. Swap all f and m values (i.e., change all f values to m and vice versa) with a single update query and no intermediate temp table.
 
 
-Id  Name  Sex  Salary
-1   A     m    2500
-2   B     f    1500
-3   C     m    5500
-4   D     f    500
+  Id  Name  Sex  Salary
+  1   A     m    2500
+  2   B     f    1500
+  3   C     m    5500
+  4   D     f    500
+
 Hide answer
 UPDATE SALARIES SET sex = CASE sex WHEN 'm' THEN 'f' ELSE 'm' END
 Comment 
@@ -270,29 +286,31 @@ Given the following tables:
 SELECT * FROM users;
 
 
-user_id  username
-1        John Doe                                                                                            
-2        Jane Don                                                                                            
-3        Alice Jones                                                                                         
-4        Lisa Romero
+  user_id  username
+  1        John Doe                                                                                            
+  2        Jane Don                                                                                            
+  3        Alice Jones                                                                                         
+  4        Lisa Romero
 
 SELECT * FROM training_details;
 
-user_training_id  user_id  training_id  training_date
-1                 1        1            "2015-08-02"
-2                 2        1            "2015-08-03"
-3                 3        2            "2015-08-02"
-4                 4        2            "2015-08-04"
-5                 2        2            "2015-08-03"
-6                 1        1            "2015-08-02"
-7                 3        2            "2015-08-04"
-8                 4        3            "2015-08-03"
-9                 1        4            "2015-08-03"
-10                3        1            "2015-08-02"
-11                4        2            "2015-08-04"
-12                3        2            "2015-08-02"
-13                1        1            "2015-08-02"
-14                4        3            "2015-08-03"
+  user_training_id  user_id  training_id  training_date
+  1                 1        1            "2015-08-02"
+  2                 2        1            "2015-08-03"
+  3                 3        2            "2015-08-02"
+  4                 4        2            "2015-08-04"
+  5                 2        2            "2015-08-03"
+  6                 1        1            "2015-08-02"
+  7                 3        2            "2015-08-04"
+  8                 4        3            "2015-08-03"
+  9                 1        4            "2015-08-03"
+  10                3        1            "2015-08-02"
+  11                4        2            "2015-08-04"
+  12                3        2            "2015-08-02"
+  13                1        1            "2015-08-02"
+  14                4        3            "2015-08-03"
+
+
 Write a query to to get the list of users who took the a training lesson more than once in the same day, grouped by user and training lesson, each ordered from the most recent lesson date to oldest date.
 Hide answer
 SELECT
@@ -307,11 +325,13 @@ SELECT
            training_date
   HAVING count( user_training_id ) > 1
   ORDER BY training_date DESC;
-user_id  username      training_id  training_date             count
-4        Lisa Romero   2            August, 04 2015 00:00:00  2
-4        Lisa Romero   3            August, 03 2015 00:00:00  2
-1        John Doe      1            August, 02 2015 00:00:00  3
-3        Alice Jones   2            August, 02 2015 00:00:00  2
+  
+
+  user_id  username      training_id  training_date             count
+  4        Lisa Romero   2            August, 04 2015 00:00:00  2
+  4        Lisa Romero   3            August, 03 2015 00:00:00  2
+  1        John Doe      1            August, 02 2015 00:00:00  3
+  3        Alice Jones   2            August, 02 2015 00:00:00  2
 
 
 Comment 
