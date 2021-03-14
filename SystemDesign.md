@@ -1,1 +1,168 @@
 
+- Design subscription-based sports website which can display scores, game status, history for any games.
+- Design for online card game say like poker or any other game. 
+- Design Truecaller.
+- Design a geographically partitioned multi-player card game, that supports multiple players, multiple games at a time.
+ Each game will have one contractor like ones we have in a bar, He can play a game or just watch it. Integrate payment systems.
+ - design a system to fast lookup cars on the market according to the user's geo-position.
+ - Design an airport service that will be used to allocate a free runway when the plane is about to land. Data structure for the same. What if the runway is not available? Message passing between control center and the plane. Focus on low-level design and code. Can the same runway be allocated to two different planes (locking)? Database storage needed?
+ - Design a Ride Sharing Application where drivers can offer rides (origin, destination, no of seats), riders can request rides ( origin, destination, no of seats) and there is an algo to decide which driver should be given the trip in case of a collision ( maximum overlapping one).
+ - Design a task planner. Different types of tasks are present – bug, feature and story. And their attributes are given. Also a Sprint which is a collection of tasks.
+- Implement a finite state machine.
+– The machine should have one start state and can have multiple end states.
+   - It should be extensible (I should be able to add any number of states or transitions at any time)
+   - I should be able to set notifications on or off for any state or for the whole state machine
+- Design a system like Jira. It should have the following functionalities :
+  - User should be able to create Task of type Story, Feature, Bugs. Each can have their own status.
+  - Stories can further have subtracts.
+  - Should be able to change the status of any task.
+  - User should be able to create any sprint. Should be able to add any task to sprint and remove from it.
+    - User should be able to print
+    - Delayed task
+    - Sprint details
+    - Tasks assigned to the user
+- Design a stock exchange system. There is a list of stocks given with following attributes 
+  - order_id
+  - time
+  - stock name
+  - type(BUY/SELL)
+  - quantity
+  - price
+  
+  You need to output list of stocks in the following format sell_id, buy_id, quantity, price which will get executed. 
+- code a TextPad with following functionality:
+  - display() – to display the entire content
+  - display(n, m) – to display from line n to m
+  - insert(n, text) – to insert text at line n
+  - delete(n) – delete line n
+  - delete(n, m) – delete from line n to m
+  - copy(n, m) – copy contents from line n to m to clipboard
+  - paste(n) – paste contents from clipboard to line n
+  - undo() – undo last command
+  - redo() – redo last command
+  
+   expected the textpad to be in memory(not as file) and also  expected to handle error gracefully and the program to be menu driven.
+- Design Car Rental System like Zoomcar.
+- Design a billing and auctioning system similar to EBay.
+  Ebay is a multinational e-commerce corporation, facilitating online consumer-to-consumer and business-to-consumer sales. The website is free to use for buyers, but sellers are charged fees for listing items and again when those items are sold. The sellers aution their items and buyers bid on items.
+- Design Q&A application as in Amazon,Walmart has it for each product.
+- Design push notification :
+  - Which sends the notification to the registered users
+  - Which receives an event from promotions team
+  - Sends notification to iOS, android or sends an email or all three
+- Design a suggestion system
+- Design and Implement a Simple Java GC (Java 7+)
+  - A heap which represents JVM when a Java program starts.
+  - At least three parts in the heap that represent Eden Space, Tenured Space and Perm Space.
+  - Different rounds of garbage collecting in these above three spaces (checking all objects to see if they have any live references at all, if not, kill them, reclaim the allocated memory, otherwise, move them to later spaces..)
+- Design LinkedIn.
+- Design a video upload system for a user with low network bandwidth
+  
+  User has to upload video which is more than 1GB. Users network bandwidth is too low. Network get dropped after 50% upload. User tries again and same thing happens. Now to design an optimized efficient solution to address this issue.
+- Design Learning Management System 
+-  Design Survey similar to Google Forms / SurveyMonkey.
+- Design Logging Framework
+- Design a locker
+  
+  To monitor the process of how to put the package into a right locker. and one locker for one package. your package and locker have different size, you need to make sure the locker size > package.
+- Design a calendar Application (similar like Google Calendar)
+   -Ability to create, update, delete an Event
+     - An event would typically consist of {start, end, location, Owner, user-list, title}.
+     - Events can either be like meetings(with a dedicated location and appropriate guest-list) or as well be like holidays, birthdays, reminders etc.
+     - An event once created, can be either accepted or rejected by the constituent users - if neither it should be in neutral state.
+  - Get Calendar for a user Ui
+  - Get Event details.
+  - For a given set of users[U1, U2,....Un] identity a common free slot of time.
+
+- Design Guitar Inventory System
+- Desing Payment System
+- Design a stock trading system
+- Design Payment Gateway like Razorpay.
+- Design a Json Parser from scratch
+  - It is coming from untrusted source (meaning validation of json is required)
+  - the key will always be string the value can be string or another key value pair.
+  - Sample input {'abc':{'d':'ef','r':'er'}} -- map.get("abc").get("d") should return "ef".
+  - No other type i.e. integer or boolean or array in the json
+  - Validation and parsing must in done simultaneously
+  - In case of invalid json string throw exception
+- Design Chat Based application like whatsapp/wechat.
+- Design a home automation sytem to remotely control all the switches, devices in a home. 
+- Design Maps Navigator Client for different transportation types
+   - Design a maps path-building navigator client.
+   - User should be able to build path from point A to point B using your code.
+   - design should support different transportation methods for example: walk, car, bus, bike.
+ - Design Meeting Scheduler
+    - Here there are n given meeting rooms. Book a meeting in any meeting room at given interval(starting time, end time). Also send notifications to all person who are invited for meeting.
+    - You should use calender for tracking date and time. And also history of all the meetings which are booked and meeting room.
+write an API for client who will give date and time and API should return meeting room with booked scheduled time. client should also query for history of last 20 booked meetings.
+    - Is meeting room available? etc
+ - Design and Implement a logger library that applications can use to log messages.
+- Design a configuration management system
+  - User should be able to add configuration
+  - User should be able to delete configuration
+  - User should be able to search for configuration
+  - User should be able to subscribe to Configuration So that any updates in configuration will gets notfied to user
+- Design Amazon comments filtering system
+- Design a Vending Machine
+  - Add items to the vending machine in fixed number of slots
+  - Payment using card or cash
+  - Select item to dispense
+-  Design Splitwise.
+- Design Mock Interview System like pramp.
+- Design Application Tracking System (ATS) like greenhouse
+- Design a Logistics System
+- Design CSV parser
+- Design message queueing system
+  - Create your own queue that will hold messages in form of JSON. Standard library queues were not allowed.
+  - There was one publisher that can generate messages.
+  - There are mutiple suscribers that will listen messages satisfying a particular regex.
+  - Suscribers should not be tighly coupled to system and can be added or removed at runtime.
+  - When a suscriber is added to the system, it registers callback function along with it. And this callback function will be invoked in case some message arrives.
+  - There can be dependency relationship among suscribers i.e if there are two suscribers say A and B and A knows that B has to listen and process first, then only A can listen and process. There was many to many dependency relationship among suscribers.
+   - There must a retry mechanism for handling error cases when some exception occurs in listening/ processing messages, that must be retried.
+- Design Employee Management Platform which includes payroll,IT,employee benefits and all other employee operations in one place.
+- Design User Engagment platform.
+- Design product experience platform like pendo.
+- Design Chess Game.
+- Design Live Auction platform for IPL / EPL.
+- Design Unit Testing Application
+- Design Browser testing Application like browserstack / sauce labs.
+- Design Real time collaboration application for the teams.
+- Design Visual workplace for remote teams.
+- Design Online UML Diagram Tool like lucidchart.
+- Design Parking Lot.
+- Design online audio/video file downloader.
+- Design Inventory System.
+- Design Warehouse Management System.
+- Design Game Streaming platform.
+- Design Real-Time Translation platform.
+- Design Community based discussion platform.
+- Design application for restaurant / malls to efficiently handle waiting queue and optimizely assign the table.
+- Design online assesment platform for exam's like gre / tofel.
+- Design online customer verifaction platform for digital on-boarding(KYC) of the users for bank and others client's.
+- Design Secure Content Management platform.
+- Design Freelancing hiring platform.
+- Design monitoring and alert system for the production as well and other enviroments.
+- Design digital-video KYC (know your customer) verification system.
+- Design online e-fiiling online income tax returns service.
+- Design job posting system dedicated to blue and grey collar workers. (multiple langs / native lang)
+- Design System Simiar to the Product-hunt (share and discover new products)
+- Design service like Clipboard. (try to store the maximum clips)
+- Design system for salary info,comparsion and other info similar to the glassdoor salary / salarry.level.
+- Design pricing / product comparision system.
+- Design Virtual Event Platform for Communities / Enterprise.
+- Design system for short video/content sharing like Tiktok.
+- Design Short Story Telling (Text/Images) platform like Terribly Tiny Tales.
+- Design a user activity tracking system for user on mobile.
+- Design in-memory (Questions like write to add,remove the table,etc).
+- Design a login API which is secure even if SSL certification is compromised.
+- How to design an API whose response will have the response from 3 other different microservices.
+- Design system which exposes two APIs: 
+    1) Save Numbers : which takes N integers and saves in backend 
+    2) GetMedian: Returns median of the numbers stored so far. [Most Frequent Op]
+- Design a torrent service, end to end.
+- Design system like Bigbasket (local retailer's).
+- Design a limit order book for trading system.
+- Design a Cache Mechanism.
+- Design a personal stock / investment protfolio system.
+- Design a electronic signature system like DocuSign / EasySign.
