@@ -28,8 +28,7 @@ Question | Solutions | Videos
 | Movie Ticket Booking | [Solution-1](https://github.com/anomaly2104/ticket-booking-low-level-system-design) | [Video-1](https://www.youtube.com/playlist?list=PL564gOx0bCLpAL7yMJqOuK3_hBuLkyRhn)|
 | Uber Eats/ Door dash/ Swiggy| [Solution-1](https://github.com/mayankbansal93/lld-food-delivery-zomato-swiggy) | [Video-1](https://www.youtube.com/watch?v=LePt0PUKIjE&list=PLHNJ91XSF3wzT6BaLVi4WbnuHcfZSXMek&index=5)
 | Stock exchange |  | [Video-1](https://www.youtube.com/watch?v=dUMWMZmMsVE&list=PLkQkbY7JNJuC99VDJcpQdww-4aT3QhdJv&index=1&t=3s)
-|more resources| [github1](https://github.com/puncsky/system-design-and-architecture) [github2](https://github.com/reach2arunprakash/system-design-primer)
-[github2](https://github.com/donnemartin/system-design-primer)
+|more resources| [github1](https://github.com/puncsky/system-design-and-architecture) [github2](https://github.com/reach2arunprakash/system-design-primer)[github2](https://github.com/donnemartin/system-design-primer)|
 
 
 
