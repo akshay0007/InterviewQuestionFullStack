@@ -1,5 +1,5 @@
-https://www.baeldung.com/hibernate-second-level-cache
-https://rapidapi.com/blog/put-vs-patch/
-https://www.journaldev.com/1162/java-multithreading-concurrency-interview-questions-answers#thread-lifecycle
-https://qr.ae/pN5HQn (Interview Types)
-https://medium.com/@krishankantsinghal/my-first-blog-on-medium-583159139237 (LRU Cache Implementation)
+|hibernate-second|[second level cache](https://www.baeldung.com/hibernate-second-level-cache)
+|put-vs-patch|[put-patch](https://rapidapi.com/blog/put-vs-patch/)
+|concurrent|[multithreading](https://www.journaldev.com/1162/java-multithreading-concurrency-interview-questions-answers#thread-lifecycle)
+https://qr.ae/pN5HQn (Interview Types)
+Lru cache|[lru cache](https://medium.com/@krishankantsinghal/my-first-blog-on-medium-583159139237)
