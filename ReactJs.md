@@ -11,3 +11,4 @@ Js Feature | [list_01](https://www.youtube.com/playlist?list=PL7pEw9n3GkoWQh_LcP
 Interview list | [Interview](https://www.youtube.com/playlist?list=PL7pEw9n3GkoUZqnNQEVbLfTTVBIWBxXg9)
 Ds & Algo | [Ds&Algo](https://www.youtube.com/playlist?list=PL7pEw9n3GkoWJcepB1U9OaOKMXPJTroZ-)
 Design Pattern | [Design_Pattern](https://www.youtube.com/watch?v=u4KS61As2iU&list=PL5Kqb3gUj-4YGkIf0qrM4l6mKRs1fGeeY&index=42)
+Instagram | [clone insta](https://www.youtube.com/watch?v=AKeaaa8yAAk&list=PL5Kqb3gUj-4YGkIf0qrM4l6mKRs1fGeeY&index=88&t=2403s)
