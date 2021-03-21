@@ -1,7 +1,7 @@
 
-Title |  Videos 
-| :---:   | :-: 
-Hacker Rank| [video] (https://www.youtube.com/watch?v=W3PlAYIW8a8&list=PL5Kqb3gUj-4YGkIf0qrM4l6mKRs1fGeeY&index=74)
+Title |  Videos |
+| :---:   | :-: |
+Hacker Rank| [video] (https://www.youtube.com/watch?v=W3PlAYIW8a8&list=PL5Kqb3gUj-4YGkIf0qrM4l6mKRs1fGeeY&index=74) |
 React Hook| [video] (https://www.youtube.com/watch?v=ApIiM8pL-kI&list=PL5Kqb3gUj-4YGkIf0qrM4l6mKRs1fGeeY&index=78)
 Array Destructure | [video] (https://www.youtube.com/watch?v=NIq3qLaHCIs&list=PL5Kqb3gUj-4YGkIf0qrM4l6mKRs1fGeeY&index=19)
 React complete course| [video] (https://www.youtube.com/watch?v=TjnWtDWFZFc&list=PL5Kqb3gUj-4YGkIf0qrM4l6mKRs1fGeeY&index=36)
