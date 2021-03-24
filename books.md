@@ -1,3 +1,3 @@
 Books | Link
 | :---:   | :-: 
-Github link|(https://github.com/pandey623/technology_books)[books]
+Github link|[books](https://github.com/pandey623/technology_books)
