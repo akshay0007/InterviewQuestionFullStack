@@ -2,7 +2,7 @@
 Title |  Videos |
 | :---:   | :-: |
 Hacker Rank| [Sorting_in_table](https://www.youtube.com/watch?v=W3PlAYIW8a8&list=PL5Kqb3gUj-4YGkIf0qrM4l6mKRs1fGeeY&index=74) 
-React Hook| [Hook](https://www.youtube.com/watch?v=ApIiM8pL-kI&list=PL5Kqb3gUj-4YGkIf0qrM4l6mKRs1fGeeY&index=78)
+React Function (state,useeffect)| [Hook](https://www.youtube.com/watch?v=ApIiM8pL-kI&list=PL5Kqb3gUj-4YGkIf0qrM4l6mKRs1fGeeY&index=78)
 Array Destructure | [ADS](https://www.youtube.com/watch?v=NIq3qLaHCIs&list=PL5Kqb3gUj-4YGkIf0qrM4l6mKRs1fGeeY&index=19)
 React complete course| [Complete series](https://www.youtube.com/watch?v=TjnWtDWFZFc&list=PL5Kqb3gUj-4YGkIf0qrM4l6mKRs1fGeeY&index=36)
 React Router | [Router](https://www.youtube.com/watch?v=2S_M6NUI9GA&list=PL5Kqb3gUj-4YGkIf0qrM4l6mKRs1fGeeY&index=85&t=200s)
