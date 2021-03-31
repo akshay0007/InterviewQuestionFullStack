@@ -16,25 +16,24 @@ public class JavaStreamUtils {
         Double value = 0D;
        Map<String,List<Employee>> data= employeeList.stream()
                 .collect(Collectors.groupingBy(Employee::getCountry,Collectors.toList()));
-        System.out.println(data);
-//        Executors.newFixedThreadPool(1);
-//        Executors.newCachedThreadPool();
-//        Executors.newScheduledThreadPool()
-//        System.out.println(value);
-//        employeeList.stream().collect(Collectors.toMap(Employee::getCountry,e->e))
-//                .entrySet().stream().sorted((e1,e2)->(e1.getValue().getName().compareTo(e2.getValue().getName())))
-//                .collect(Collectors.toList());
-//        employeeList.stream().sorted((e1,e2)->e1.getName().compareTo(e2.getName()))
-//                .collect(Collectors.toList()).forEach(System.out::println);
-//        Map<String, List<Employee>> collect = employeeList.stream()
-//                .collect(Collectors.groupingBy(Employee::getName,HashMap::new,  Collectors.toList()));
-//        collect.entrySet().stream().map(entry->entry.getValue())
-//                .flatMap(Collection::stream);
+       Executors.newFixedThreadPool(1);
+        Executors.newCachedThreadPool();
+        Executors.newScheduledThreadPool()
+        System.out.println(value);
+        employeeList.stream().collect(Collectors.toMap(Employee::getCountry,e->e))
+                .entrySet().stream().sorted((e1,e2)->(e1.getValue().getName().compareTo(e2.getValue().getName())))
+                .collect(Collectors.toList());
+        employeeList.stream().sorted((e1,e2)->e1.getName().compareTo(e2.getName()))
+                .collect(Collectors.toList()).forEach(System.out::println);
+        Map<String, List<Employee>> collect = employeeList.stream()
+                .collect(Collectors.groupingBy(Employee::getName,HashMap::new,  Collectors.toList()));
+        collect.entrySet().stream().map(entry->entry.getValue())
+                .flatMap(Collection::stream);
 
-//        employeeList.stream().collect(Collectors.toMap(employee -> employee.getName(), e -> e, (k1, k2) -> k1));
-//        System.out.println(employeeList.stream().collect(Collectors.groupingBy((Employee e)->{
-//            return e.getCountry();
-//        },Collectors.mapping(e->e.getName().toUpperCase(),Collectors.toList()))));
+        employeeList.stream().collect(Collectors.toMap(employee -> employee.getName(), e -> e, (k1, k2) -> k1));
+        System.out.println(employeeList.stream().collect(Collectors.groupingBy((Employee e)->{
+            return e.getCountry();
+        },Collectors.mapping(e->e.getName().toUpperCase(),Collectors.toList()))));
         Map<String, Employee> obj = employeeList.stream().collect(Collectors.toMap(e -> e.getCountry(), e -> e,(e1,e2)->e1));
         System.out.println(obj);
         Executors.newSingleThreadExecutor();
@@ -42,25 +41,25 @@ public class JavaStreamUtils {
         System.out.println(employeeList.stream()
                 .collect(Collectors.groupingBy(e->e.getCountry(),
                         Collectors.mapping(e->e.getName(),Collectors.toList()))));
-//        System.out.println(employeeList.stream()
-//                .collect(Collectors.toMap((Employee e)->e.getCountry(), (Employee e)->e.getName(), (e1,e2)->{
-//                    return e1;
-//                })));
+        System.out.println(employeeList.stream()
+                .collect(Collectors.toMap((Employee e)->e.getCountry(), (Employee e)->e.getName(), (e1,e2)->{
+                    return e1;
+                })));
 
-//        System.out.println(employeeList.stream()
-//                .collect(Collectors.groupingBy((Employee e)->e.getCountry(),
-//                        Collectors.mapping(e->e.getName().toUpperCase(),Collectors.toList())
-//        )));
-        System.out.println(employeeList.stream().collect(Collectors.groupingBy((Employee e) -> e.getCountry().equals("US")
-                , Collectors.mapping(e -> e.getName().toUpperCase(), Collectors.toList()))));
-//        System.out.println(employeeList.stream().collect(Collectors.toMap((e) -> e.getCountry(), e -> e.getSalary(),
-//                (salaryOld,salaryNew) -> {
-//                    return salaryNew;
-//                })));
-//        System.out.println(employeeList.stream().collect(Collectors.groupingBy((Employee e)->e.getCountry().equals("US"))));
-//        System.out.println(employeeList.stream().collect(Collectors.partitioningBy((Employee e)->e.getCountry().equals("IN"),Collectors.counting())));
-//        System.out.println(employeeList.stream().collect(Collectors.maxBy(Comparator.comparing((Employee e)->e.getSalary()))).get());
-//        System.out.println(employeeList);
+        System.out.println(employeeList.stream()
+                .collect(Collectors.groupingBy((Employee e)->e.getCountry(),
+                        Collectors.mapping(e->e.getName().toUpperCase(),Collectors.toList())
+        )));
+      System.out.println(employeeList.stream().collect(Collectors.groupingBy((Employee e) -> e.getCountry().equals("US")
+              , Collectors.mapping(e -> e.getName().toUpperCase(), Collectors.toList()))));
+        System.out.println(employeeList.stream().collect(Collectors.toMap((e) -> e.getCountry(), e -> e.getSalary(),
+                (salaryOld,salaryNew) -> {
+                    return salaryNew;
+                })));
+        System.out.println(employeeList.stream().collect(Collectors.groupingBy((Employee e)->e.getCountry().equals("US"))));
+        System.out.println(employeeList.stream().collect(Collectors.partitioningBy((Employee e)->e.getCountry().equals("IN"),Collectors.counting())));
+        System.out.println(employeeList.stream().collect(Collectors.maxBy(Comparator.comparing((Employee e)->e.getSalary()))).get());
+        System.out.println(employeeList);
     }
 
 
