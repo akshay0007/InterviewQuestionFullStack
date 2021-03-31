@@ -6,3 +6,4 @@ Topic | Link
 |Kubernets |[Kubernets](https://www.youtube.com/playlist?list=PLxB5QUp1sMFgDDvTD5pan0cPOeCqTON7l)
 |Micro Service (Design)|[design](https://www.youtube.com/playlist?list=PLkQkbY7JNJuDqCFncFdTzGm6cRYCF-kZO)
 |Advance Level|[advance](https://www.youtube.com/playlist?list=PLqq-6Pq4lTTaoaVoQVfRJPqvNTCjcTvJB)
+|AWS interview QA|[Int. QA1](https://www.simplilearn.com/tutorials/aws-tutorial/aws-interview-questions) [Int QA2](https://career.guru99.com/top-15-aws-interview-questions/)
