@@ -29,3 +29,26 @@ callerunspolicy-->
 Spring security---
 
 
+
+Java
+====================================
+====================================
+creat.
+singleton---lazy-->double locking
+factory
+builder
+
+beh.
+temp
+poroto
+starategy
+
+structural-
+fligweight
+structural
+adapter
+======================================
+
+ExecutorService
+LinkedList
+BLockingQueue
