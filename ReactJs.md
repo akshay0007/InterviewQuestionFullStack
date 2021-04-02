@@ -13,3 +13,4 @@ Ds & Algo | [Ds&Algo](https://www.youtube.com/playlist?list=PL7pEw9n3GkoWJcepB1U
 Design Pattern | [Design_Pattern](https://www.youtube.com/watch?v=u4KS61As2iU&list=PL5Kqb3gUj-4YGkIf0qrM4l6mKRs1fGeeY&index=42)
 Instagram | [clone insta](https://www.youtube.com/watch?v=AKeaaa8yAAk&list=PL5Kqb3gUj-4YGkIf0qrM4l6mKRs1fGeeY&index=88&t=2403s)
 Interview QA|[qa1](https://www.interviewbit.com/javascript-interview-questions/) [qa2](https://www.javatpoint.com/javascript-interview-questions) [qa3](https://www.guru99.com/javascript-interview-questions-answers.html)
+React QA|[qa1](https://vigowebs.medium.com/frequently-asked-react-js-interview-questions-and-answers-36f3dd99f486)
