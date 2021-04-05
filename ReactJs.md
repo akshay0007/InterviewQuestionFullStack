@@ -15,3 +15,4 @@ Instagram | [clone insta](https://www.youtube.com/watch?v=AKeaaa8yAAk&list=PL5Kq
 Interview Java script QA|[qa**](https://www.interviewbit.com/javascript-interview-questions/) [map and foreach](https://www.freecodecamp.org/news/4-main-differences-between-foreach-and-map/)
 React QA|[qa1](https://vigowebs.medium.com/frequently-asked-react-js-interview-questions-and-answers-36f3dd99f486)
 React Js Inteview|[interview 500](https://github.com/sudheerj/reactjs-interview-questions) [interview 2](https://www.edureka.co/blog/interview-questions/react-interview-questions/) [inteveiw 62](https://www.interviewbit.com/react-interview-questions/)
+Java Script[500]|[500](https://github.com/sudheerj/javascript-interview-questions#what-is-memoization) 
