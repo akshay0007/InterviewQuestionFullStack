@@ -1,5 +1,6 @@
 Inteview question--
 
+Association - aggregation and composition
 Weekhashmap and strong hashmap.
 shallow copy, deep copy.
 sort list on the basis on name and id.
