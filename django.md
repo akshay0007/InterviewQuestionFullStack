@@ -83,3 +83,9 @@ Django--
 
 now create to file api.py and serializers.py
 
+
+whenever install your service in server must install -- pip install gunicorn flask
+	bcoz it manage multithreaded env
+	
+AND genrate requirement files --> pip freeze > requirement.txt	
+
