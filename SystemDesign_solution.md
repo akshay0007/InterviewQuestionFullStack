@@ -31,5 +31,6 @@ Question | Solutions | Videos
 |more resources| [github1](https://github.com/puncsky/system-design-and-architecture) [github2](https://github.com/reach2arunprakash/system-design-primer) [github3](https://github.com/donnemartin/system-design-primer)|
 |Low level design|--|[list1](https://www.youtube.com/playlist?list=PL12BCqE-Lp650Cg6FZW7SoZwN8Rw1WJI7) [list2](https://www.youtube.com/playlist?list=PL564gOx0bCLqTolRIHIsR2JPv11w8LESW) [list3](https://www.youtube.com/playlist?list=PLtppXJZiindp61l-uZSJb4m0LT2G397Vh)
 |cache-low-level-design|[link](https://github.com/amarlearning/cache-low-level-design)| 
+|system design resource|| [resource](https://serhatgiydiren.github.io/helpful-resources-for-system-design-interviews)
 
 
