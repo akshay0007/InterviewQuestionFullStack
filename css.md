@@ -26,3 +26,65 @@ Grid template-
 refrence- https://www.youtube.com/watch?v=Aec0xLKzBWk&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=41&ab_channel=CodeWithHarry
 
 
+Flex box-
+
+  https://www.youtube.com/watch?v=4ykmsTpIn08&ab_channel=CodeWithHarry
+  
+  display of container -->flex
+  
+  container props-
+  flex-direction:row,column,row-reverse
+  
+  flex box item wrap in responsive
+  flex-wrap:wrap
+  
+  flex-flow: shorthand props
+  
+  justify-content: center / space-between --> align centrally
+  
+  align-items: center /flex-end/flex-start
+  align-items: stretch
+  
+  
+  item props--
+  
+  order:3--> higher the item later will show in container
+  
+  flex-grow: -->
+  flex-shrink: --> 
+  flex-basis: --> when flex direction set to row then flex basis control width another wise control height 
+  
+  align-self: flex-start
+  
+  Resposive website--
+    view port
+    max-width and min-width 
+    css-media query --> if statement in css
+    em/rem/vh/vw units over pixel
+    
+   n em-->  n times of parent
+   
+   rem --> take ref. of html 
+   
+   vw-->view port weight
+   vh-->view port height
+   
+   
+    
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
