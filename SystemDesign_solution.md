@@ -33,5 +33,6 @@ Question | Solutions | Videos
 |cache-low-level-design|[link](https://github.com/amarlearning/cache-low-level-design)| 
 |system design resource|| [resource](https://serhatgiydiren.github.io/helpful-resources-for-system-design-interviews)
 |system design cheetsheet||[cheets1](https://gist.github.com/vasanthk/485d1c25737e8e72759f) [cheet2](https://github.com/shashank88/system_design) [cheet3](https://github.com/checkcheckzz/system-design-interview)
+|System design chanllange|[challanges](https://github.com/TechPrimers/whats-your-architecture)
 
 
