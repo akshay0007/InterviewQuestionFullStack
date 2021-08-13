@@ -34,7 +34,7 @@ Question | Solutions | Videos
 |system design resource|| [resource](https://serhatgiydiren.github.io/helpful-resources-for-system-design-interviews)
 |system design cheetsheet||[cheets1](https://gist.github.com/vasanthk/485d1c25737e8e72759f) [cheet2](https://github.com/shashank88/system_design) [cheet3](https://github.com/checkcheckzz/system-design-interview)
 |System design chanllange|[challanges](https://github.com/TechPrimers/whats-your-architecture)
-|aws design | [design](https://aws.amazon.com/blogs/architecture/) [aws vidoes and case study](https://www.knowledgeindia.in/p/all-aws-videos-in-one-pl.html)https://tianpan.co/notes/243-designing-online-judge-or-leetcode
+|aws design | [design](https://aws.amazon.com/blogs/architecture/) [aws vidoes and case study](https://www.knowledgeindia.in/p/all-aws-videos-in-one-pl.html)
 |System design | [blogs](https://tianpan.co/notes/243-designing-online-judge-or-leetcode)
 
 
