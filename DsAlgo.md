@@ -1,18 +1,11 @@
-Given a 2D grid, each cell is either a wallc 2, a zombie 1 or people 0 (the number zero, one, two).Zombies can turn the nearest people(up/down/left/right) into zombies every day, but can not through wall. How long will it take to turn all people into zombies? Return -1 if can not turn all people into zombies.
+Name | link |
+------ | ------ |
+live with Larry |[link](https://www.youtube.com/c/Algorithmist/playlists)
+happy coding|[link](https://www.youtube.com/channel/UCnIYOzDChH7V8s5BqvjGSEQ/playlists)
+My list Algo|[link](https://www.youtube.com/playlist?list=PL5Kqb3gUj-4Y4bQ9eh9-vVgrgm5le5Xow)
+Code bix|[link](https://www.youtube.com/channel/UCZJRtZh8O6FKWH49YLapAbQ)
+take u forward|[link](https://www.youtube.com/c/takeUforward/playlists)
+Neet code|[link](https://www.youtube.com/c/NeetCode/playlists)
+tech dose|[link](https://www.youtube.com/c/TECHDOSE4u/playlists)
+Google dev|[link](https://www.youtube.com/channel/UCoINm6OonT9maYxOCDiXxkg/featured)
 
-
-Input:
-[[0,1,2,0,0],
- [1,0,0,2,1],
- [0,1,0,0,0]]
-Output:
-2
-
-Input:
-[[0,0,0],
- [0,0,0],
- [0,0,1]]
-Output:
-
-
-sol--https://mrleonhuang.gitbooks.io/lintcode/content/breath-first-search/zombie-in-matrix.html
