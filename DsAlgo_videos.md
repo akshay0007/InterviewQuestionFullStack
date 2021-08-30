@@ -1,7 +1,6 @@
 Name | link |
 ------ | ------ |
-Google Algo Ds And Algo Free coder|[ds](https://www.youtube.com/watch?v=RBSGKlAvoiM&list=PL5Kqb3gUj-4a4gwarSsjaC4h1hLn_6BTZ&index=70&t=1889s&ab_channel=freeCodeCamp.org) (graph)[https://www.youtube.com/watch?v=09_LlHjoEiY&list=PL5Kqb3gUj-4a4gwarSsjaC4h1hLn_6BTZ&index=69&t=15788s&ab_channel=freeCodeCamp.org]
-
+Google Algo Free coder|[ds](https://www.youtube.com/watch?v=RBSGKlAvoiM&list=PL5Kqb3gUj-4a4gwarSsjaC4h1hLn_6BTZ&index=71&t=1889s&ab_channel=freeCodeCamp.org)  [graph](https://www.youtube.com/watch?v=09_LlHjoEiY&list=PL5Kqb3gUj-4a4gwarSsjaC4h1hLn_6BTZ&index=70&t=15788s&ab_channel=freeCodeCamp.org)
 live with Larry |[link](https://www.youtube.com/c/Algorithmist/playlists)
 happy coding|[link](https://www.youtube.com/channel/UCnIYOzDChH7V8s5BqvjGSEQ/playlists)
 My list Algo|[link](https://www.youtube.com/playlist?list=PL5Kqb3gUj-4Y4bQ9eh9-vVgrgm5le5Xow)
