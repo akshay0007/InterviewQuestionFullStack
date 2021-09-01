@@ -16,4 +16,4 @@ proxy object internal working.
 
 
 Full website links
-https://github.com/akshay0007/study
+https://github.com/akshay0007/study/blob/master/websites
