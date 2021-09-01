@@ -13,3 +13,7 @@ linkedlist vs array list when deletion is heavy.
 Hibernate-
 can we make entity class final.
 proxy object internal working.
+
+
+Full website links
+https://github.com/akshay0007/study
