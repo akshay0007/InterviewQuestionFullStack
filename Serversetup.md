@@ -58,3 +58,6 @@ sql ---
 show status where `variable_name` = 'Threads_connected';
 show processlist;
 SHOW STATUS WHERE `variable_name` = 'Max_used_connections';
+  
+==============================
+  ssh -i -N -L 3306:127.0.0.1:3306 akshay@192.168.10.12
