@@ -6,7 +6,7 @@ Name | link |
 ------ | ------ |
 A|[java interview](https://www.youtube.com/c/DefogTech/playlists)
 q|Association - aggregation and composition<br/>
-q| [design pattern](https://www.javatpoint.com/command-pattern)
+q| [design pattern](https://www.javatpoint.com/command-pattern) [pattern-2](https://www.journaldev.com/1562/flyweight-design-pattern-java)
 q|Weekhashmap and strong hashmap.<br/>
 q|shallow copy, deep copy.<br/>
 q|sort list on the basis on name and id.<br/>
