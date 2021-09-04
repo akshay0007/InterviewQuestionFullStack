@@ -41,7 +41,7 @@ Angular
 
 Name | link |
 ------ | ------ |
-life cycle|[link](https://angular.io/guide/lifecycle-hooks)
+q|[life cycle](https://angular.io/guide/lifecycle-hooks)
 
 <br/>
 
