@@ -29,7 +29,7 @@ Spring
 
 Name | link |
 ------ | ------ |
-q|transaction mgt [link](https://dzone.com/articles/spring-transaction-management)
+q| [transaction mgt](https://dzone.com/articles/spring-transaction-management)
 q|spring request scopte
 q|[spring bean life cycle](https://medium.com/swlh/the-lifecycle-of-spring-beans-b0edb8936189)
 q|[spring security impl](https://auth0.com/blog/spring-boot-authorization-tutorial-secure-an-api-java/)
