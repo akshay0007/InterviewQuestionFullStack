@@ -4,12 +4,17 @@ Java quesions
 
 Name | link |
 ------ | ------ |
+A|[java interview](https://www.youtube.com/c/DefogTech/playlists)
 q|Association - aggregation and composition<br/>
 q|Weekhashmap and strong hashmap.<br/>
 q|shallow copy, deep copy.<br/>
 q|sort list on the basis on name and id.<br/>
 q|diamond problem in java.<br/>
 q|rehashing in java.<br/>
+q|grabage collection algo
+q|java memory model
+q|class loader
+q|custom iml of collections
 q|[contract b/w hashcode and equals method](https://www.baeldung.com/java-equals-hashcode-contracts).<br/>
 q|collision detect in hash map.<br/>
 q|linkedlist vs array list when deletion is heavy.<br/>
