@@ -15,7 +15,8 @@ can we make entity class final.
 proxy object internal working.
 
 <br/>
-|---|---|
+Name | link |
+------ | ------ |
 |full web site link| [Full website links](https://github.com/akshay0007/study/blob/master/websites.md)<br/>
 | [copy object](https://www.tutorialspoint.com/how-to-create-an-immutable-class-with-mutable-object-references-in-java) 
 |statck overflow| [stack overflow](https://stackoverflow.com/questions/34109363/how-can-we-maintain-immutability-of-a-class-with-a-mutable-reference/34109446)<br/>
