@@ -14,6 +14,6 @@ Hibernate-
 can we make entity class final.
 proxy object internal working.
 
-
+<br>
 Full website links
-https://github.com/akshay0007/study/blob/master/websites
+https://github.com/akshay0007/study/blob/master/websites.md
