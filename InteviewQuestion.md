@@ -1,6 +1,7 @@
 Inteview question--
 
 Java quesions
+
 Name | link |
 ------ | ------ |
 q|Association - aggregation and composition<br/>
@@ -12,14 +13,20 @@ q|rehashing in java.<br/>
 q|contract b/w hashcode and equals method.<br/>
 q|collision detect in hash map.<br/>
 q|linkedlist vs array list when deletion is heavy.<br/>
+<br/>
 
 Hibernate
+
 Name | link |
 ------ | ------ |
 q|can we make entity class final.<br/>
 q|proxy object internal working.<br/>
 
+<br/>
+
+
 Spring
+
 Name | link |
 ------ | ------ |
 q|transaction mgt [link](https://dzone.com/articles/spring-transaction-management)
@@ -27,13 +34,19 @@ q|spring request scopte
 q|[spring bean life cycle](https://medium.com/swlh/the-lifecycle-of-spring-beans-b0edb8936189)
 q|[spring security impl](https://auth0.com/blog/spring-boot-authorization-tutorial-secure-an-api-java/)
 
+
+<br/>
+
 Angular 
+
 Name | link |
 ------ | ------ |
 life cycle|[link](https://angular.io/guide/lifecycle-hooks)
 
+<br/>
 
 JAVA
+
 Name | link |
 ------ | ------ |
 full web site link| [Full website links](https://github.com/akshay0007/study/blob/master/websites.md)<br/>
