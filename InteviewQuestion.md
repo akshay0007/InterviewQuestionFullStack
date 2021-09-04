@@ -20,7 +20,7 @@ proxy object internal working.
 Name | link |
 ------ | ------ |
 full web site link| [Full website links](https://github.com/akshay0007/study/blob/master/websites.md)<br/>
- [copy object](https://www.tutorialspoint.com/how-to-create-an-immutable-class-with-mutable-object-references-in-java) 
+copy objects|[copy object](https://www.tutorialspoint.com/how-to-create-an-immutable-class-with-mutable-object-references-in-java) 
 statck overflow| [stack overflow](https://stackoverflow.com/questions/34109363/how-can-we-maintain-immutability-of-a-class-with-a-mutable-reference/34109446)<br/>
 collectoin compare | [collection compare](https://www.javamadesoeasy.com/2015/04/collection-list-set-and-map-all.html)<br/>
 120 quesions|[120 interviews questions](https://www.javamadesoeasy.com/2015/07/core-java-top-120-most-interesting-and_21.html)<br/>
