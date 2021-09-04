@@ -1,22 +1,39 @@
 Inteview question--
 
-Association - aggregation and composition
-Weekhashmap and strong hashmap.
-shallow copy, deep copy.
-sort list on the basis on name and id.
-diamond problem in java.
-rehashing in java.
-contract b/w hashcode and equals method.
-collision detect in hash map.
-linkedlist vs array list when deletion is heavy.
+Java quesions
+Name | link |
+------ | ------ |
+q|Association - aggregation and composition<br/>
+q|Weekhashmap and strong hashmap.<br/>
+q|shallow copy, deep copy.<br/>
+q|sort list on the basis on name and id.<br/>
+q|diamond problem in java.<br/>
+q|rehashing in java.<br/>
+q|contract b/w hashcode and equals method.<br/>
+q|collision detect in hash map.<br/>
+q|linkedlist vs array list when deletion is heavy.<br/>
 
-Hibernate-
-can we make entity class final.
-proxy object internal working.
+Hibernate
+Name | link |
+------ | ------ |
+q|can we make entity class final.<br/>
+q|proxy object internal working.<br/>
 
-<br/>
+Spring
+Name | link |
+------ | ------ |
+q|transaction mgt [link](https://dzone.com/articles/spring-transaction-management)
+q|spring request scopte
+q|[spring bean life cycle](https://medium.com/swlh/the-lifecycle-of-spring-beans-b0edb8936189)
+q|[spring security impl](https://auth0.com/blog/spring-boot-authorization-tutorial-secure-an-api-java/)
+
+Angular 
+Name | link |
+------ | ------ |
+life cycle|[link](https://angular.io/guide/lifecycle-hooks)
 
 
+JAVA
 Name | link |
 ------ | ------ |
 full web site link| [Full website links](https://github.com/akshay0007/study/blob/master/websites.md)<br/>
