@@ -32,6 +32,7 @@ concurrency inerview|[link](https://www.javamadesoeasy.com/search/label/Thread%2
 |Java 8|[java8](https://howtodoinjava.com/java8/) [java11](https://www.baeldung.com/java-11-new-features)<br/>
 |hash code and string|[link](https://howtodoinjava.com/java/basics/java-hashcode-equals-methods/#:~:text=Contract%20between%20hashCode()%20and%20equals()&text=If%20two%20objects%20are%20equal,lang.)<br/>
 |assocation and agg|[link](https://www.geeksforgeeks.org/association-composition-aggregation-java/)<br/>
+q| [fail fast](https://www.javamadesoeasy.com/2015/04/concurrentmodificationexception-fail.html)<br/>
 
 <br/>
 
