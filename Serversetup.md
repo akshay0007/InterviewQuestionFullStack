@@ -61,3 +61,22 @@ SHOW STATUS WHERE `variable_name` = 'Max_used_connections';
   
 ==============================
   ssh -i -N -L 3306:127.0.0.1:3306 akshay@192.168.10.12
+
+  
+  
+  
+  Angular --
+  angular --
+npm run-script build
+
+make dist to zip arch.
+
+copy and paste this to server 
+and move to 
+
+unzip dist.zip
+
+rm -r prject/dist
+
+mv dist prject/
+
