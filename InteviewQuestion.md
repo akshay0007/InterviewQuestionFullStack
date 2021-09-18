@@ -1,4 +1,9 @@
 Inteview question--
+Web sites
+Name | link |
+------ | ------ |
+full web site link| [Full website links](https://github.com/akshay0007/study/blob/master/websites.md)<br/>
+
 
 Java quesions
 
@@ -19,7 +24,6 @@ q|custom iml of collections
 q|[contract b/w hashcode and equals method](https://www.baeldung.com/java-equals-hashcode-contracts).<br/>
 q|collision detect in hash map.<br/>
 q|linkedlist vs array list when deletion is heavy.<br/>
-full web site link| [Full website links](https://github.com/akshay0007/study/blob/master/websites.md)<br/>
 copy objects|[copy object](https://www.tutorialspoint.com/how-to-create-an-immutable-class-with-mutable-object-references-in-java) 
 statck overflow| [stack overflow](https://stackoverflow.com/questions/34109363/how-can-we-maintain-immutability-of-a-class-with-a-mutable-reference/34109446)<br/>
 collectoin compare | [collection compare](https://www.javamadesoeasy.com/2015/04/collection-list-set-and-map-all.html)<br/>
