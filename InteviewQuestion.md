@@ -34,6 +34,14 @@ concurrency inerview|[link](https://www.javamadesoeasy.com/search/label/Thread%2
 |assocation and agg|[link](https://www.geeksforgeeks.org/association-composition-aggregation-java/)<br/>
 q| [fail fast](https://www.javamadesoeasy.com/2015/04/concurrentmodificationexception-fail.html)<br/>
 
+blog|Netflix and kafka | [link](https://www.confluent.io/blog/how-kafka-is-used-by-netflix/)  
+blog|hibernate-second | [second level cache](https://www.baeldung.com/hibernate-second-level-cache)
+blog|put-vs-patch | [put-patch](https://rapidapi.com/blog/put-vs-patch/)
+blog|concurrent | [multithreading](https://www.journaldev.com/1162/java-multithreading-concurrency-interview-questions-answers#thread-lifecycle)
+blog|Interview Type | [Interview Types](https://qr.ae/pN5HQn) 
+blog|Lru cache | [lru cache](https://medium.com/@krishankantsinghal/my-first-blog-on-medium-583159139237)
+blog|composition and aggrre|[link](https://www.geeksforgeeks.org/association-composition-aggregation-java/)
+
 <br/>
 
 Hibernate
