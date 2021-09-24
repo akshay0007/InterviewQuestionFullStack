@@ -9,4 +9,8 @@ Alogs|[algo](https://gitlab.com/whacks/sandbox/-/tree/master)  <br/>
 Micorservice(ecommerce)|[ecommerce](https://github.com/ravening/ecommerce-microservice/tree/master/invoice)  <br/>
 Micro service(Piotr)|[micro service](https://www.youtube.com/playlist?list=PLxB5QUp1sMFhRRw1wBtmGr5w8_hYbdVpb) <br/>
 Micro Service (Design)|[design](https://www.youtube.com/playlist?list=PLkQkbY7JNJuDqCFncFdTzGm6cRYCF-kZO)<br/>
-Microservice(green lerner) |[green lerner](https://github.com/greenlearner01/Microservices-Architecture)
+Microservice(green lerner) |[green lerner](https://github.com/greenlearner01/Microservices-Architecture)<br/>
+API Gateway|[nodejs](https://blog.risingstack.com/building-an-api-gateway-using-nodejs/) 
+ [gateway](https://konghq.com/learning-center/api-gateway/using-microservices-with-api-gateway/)
+ [nodejs](https://auth0.com/blog/an-introduction-to-microservices-part-2-API-gateway/)
+
