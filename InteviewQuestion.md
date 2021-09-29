@@ -5,6 +5,13 @@ Name | link |
 ------ | ------ |
 full web site link| [Full website links](https://github.com/akshay0007/study/blob/master/websites.md) <br/>
 
+Algo--
+
+Name | link |
+------ | ------ |
+s| [javablog](https://java2blog.com/java-coding-interview-questions/) <br/>
+s| [tutorial horizon](https://algorithms.tutorialhorizon.com/) <br/>
+s| [career cup](https://www.careercup.com/page)
 
 Java quesions
 
