@@ -88,6 +88,9 @@ Database
 Name | link |
 ------ | ------ |
 q|[sharding vs partition](https://hazelcast.com/glossary/sharding/)
-q|[sql queries](https://github.com/akshay0007/InterviewQuestionFullStack/blob/main/Database.md)
+q|[complete sql](https://github.com/akshay0007/study/blob/master/sqlbasic.md)
+q|[oracle ](https://github.com/akshay0007/InterviewQuestionFullStack/blob/main/Database.md)
+100k connection |[100k](https://www.percona.com/blog/2019/02/25/mysql-challenge-100k-connections/) 
+Load balancing| [load balnace](https://docs.gitlab.com/ee/administration/database_load_balancing.html)
 
 
