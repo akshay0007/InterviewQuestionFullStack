@@ -75,6 +75,19 @@ Angular
 Name | link |
 ------ | ------ |
 q|[life cycle](https://angular.io/guide/lifecycle-hooks)
+q|AOT
+q|directive (custom tag)
+q|obserable methods
+q|can we make small modules like in java jar for communication
 
 <br/>
+
+
+Database
+
+Name | link |
+------ | ------ |
+q|[sharding vs partition](https://hazelcast.com/glossary/sharding/)
+q|[sql queries](https://github.com/akshay0007/InterviewQuestionFullStack/blob/main/Database.md)
+
 
