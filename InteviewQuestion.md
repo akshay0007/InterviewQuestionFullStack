@@ -18,7 +18,7 @@ Java quesions
 Name | link |
 ------ | ------ |
 q|[excption hirrarchy](https://www.geeksforgeeks.org/exception-handling-with-method-overriding-in-java/)
-q|cohesion and coupling
+q|[cohesion and coupling](https://stackoverflow.com/questions/3085285/difference-between-cohesion-and-coupling#:~:text=Cohesion%20is%20an%20indication%20of,component%2C%20subsystem%20or%20a%20system.)
 A|[java interview](https://www.youtube.com/c/DefogTech/playlists)
 q|Association - aggregation and composition<br/>
 q| [design pattern](https://www.javatpoint.com/command-pattern) [pattern-2](https://www.journaldev.com/1562/flyweight-design-pattern-java)
