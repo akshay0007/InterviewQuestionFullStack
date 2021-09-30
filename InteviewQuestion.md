@@ -17,7 +17,12 @@ Java quesions
 
 Name | link |
 ------ | ------ |
+q|Javamemory model
+q|[sequentialy run 2 threads](https://codedaily.in/java-program-for-printing-sequence-using-3-threads/)
 q|[excption hirrarchy](https://www.geeksforgeeks.org/exception-handling-with-method-overriding-in-java/)
+q|put employee(name,age) (a,1),(a,1),(b,1),null OP-> for treeset and hashset
+q|when we write class with emp and have main method what will be the memory assignment
+q|deep cloning and shallow cloning || identity hashmap
 q|[cohesion and coupling](https://stackoverflow.com/questions/3085285/difference-between-cohesion-and-coupling#:~:text=Cohesion%20is%20an%20indication%20of,component%2C%20subsystem%20or%20a%20system.)
 A|[java interview](https://www.youtube.com/c/DefogTech/playlists)
 q|Association - aggregation and composition<br/>
