@@ -17,6 +17,8 @@ Java quesions
 
 Name | link |
 ------ | ------ |
+q|[excption hirrarchy](https://www.geeksforgeeks.org/exception-handling-with-method-overriding-in-java/)
+q|cohesion and coupling
 A|[java interview](https://www.youtube.com/c/DefogTech/playlists)
 q|Association - aggregation and composition<br/>
 q| [design pattern](https://www.javatpoint.com/command-pattern) [pattern-2](https://www.journaldev.com/1562/flyweight-design-pattern-java)
