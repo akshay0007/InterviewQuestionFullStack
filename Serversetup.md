@@ -1,6 +1,7 @@
 ---------------------------------------------------------
 ---------------------------------------------------------
-
+git hup setup
+https://support.atlassian.com/bitbucket-cloud/docs/set-up-an-ssh-key/
 
 kill -9 <processID>
 
