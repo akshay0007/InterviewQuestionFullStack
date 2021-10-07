@@ -14,3 +14,5 @@ system design| [bala](https://github.com/gopalbala)  [udit](https://github.com/a
 devops | [devops](https://github.com/marcel-dempers/docker-development-youtube-series)
 microservice | [micro](https://github.com/quarkusio/quarkus/blob/main/MAINTAINERS.adoc)
 uber | [ring pop](https://github.com/uber-node/ringpop-node)
+system design | [design](https://github.com/puncsky/system-design-and-architecture)
+Data structure | [ds](https://github.com/reach2arunprakash/Data-Structures)
