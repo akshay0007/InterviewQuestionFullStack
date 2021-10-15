@@ -19,5 +19,6 @@ Mikhail Tikhomirov|[link](https://www.youtube.com/user/Endagorion/videos)
 william li|[link](https://www.youtube.com/c/WilliamLin168)
 umnik|[link](https://www.youtube.com/channel/UC3-pkjZ8-D4aW8QfaExuMjw/videos)
 tourist|[link](https://www.youtube.com/channel/UCkySD00cmDWYHXA31hqRYRw)
+coding simplyfy|[link](https://www.youtube.com/watch?v=tHxhCbngkgk&list=PLt4nG7RVVk1jcoLFb1gn0EylZ381IgrNq&index=2&ab_channel=CodingSimplified)
 
 
