@@ -8,5 +8,5 @@ s.no. | Links
 5|[java  120 question](https://www.javamadesoeasy.com/2015/07/core-java-top-120-most-interesting-and_21.html)
 6|[company dev blog](https://github.com/sumodirjo/engineering-blogs)
 7|[system design](https://systeminterview.com/scale-from-zero-to-millions-of-users.php) [my blog](https://www.youtube.com/playlist?list=PL5Kqb3gUj-4YS3NUPRYVBJRyFqPtfacw7)
-8|[neet code](https://www.youtube.com/c/NeetCode/playlists) 
+8|[neet code](https://www.youtube.com/c/NeetCode/playlists)  [my playlist](https://www.youtube.com/playlist?list=PL5Kqb3gUj-4Y4bQ9eh9-vVgrgm5le5Xow)
 9|[mysql blog](https://dev.mysql.com/doc/mysql-partitioning-excerpt/5.7/en/partitioning-subpartitions.html)
