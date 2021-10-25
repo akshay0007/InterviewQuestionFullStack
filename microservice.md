@@ -12,4 +12,5 @@ Micro Service (Design)|[design](https://www.youtube.com/playlist?list=PLkQkbY7JN
 Microservice(green lerner) |[green lerner](https://github.com/greenlearner01/Microservices-Architecture)<br/>
 API Gateway|[nodejs](https://blog.risingstack.com/building-an-api-gateway-using-nodejs/) [gateway](https://konghq.com/learning-center/api-gateway/using-microservices-with-api-gateway/) [nodejs](https://auth0.com/blog/an-introduction-to-microservices-part-2-API-gateway/)
 jhipster|[jhipster](https://www.infoq.com/minibooks/jhipster-mini-book-5/)<br/>
+kubernetes| [kubernetes concept](https://www.youtube.com/playlist?list=PLLYW3zEOaqlLrc4VGtUuInis1N30e3PIm) <br/>
 
